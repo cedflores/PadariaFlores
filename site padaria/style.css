@@ -1,18 +1,70 @@
-* {
+* {           /* configurações padrões de inicio de um projeto dentro do CSS */
     margin: 0;
     padding: 0;
     vertical-align: baseline;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, Helvetica,  sans-serif;
 }
 
 header {
-    display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 15px;
-    background-color: rgb(85, 48, 6);
-    overflow: hidden;
-    line-height: 200px;
-    max-height: 200px;
+    display: flex; /* Responsável por colocar os itens na mesma linha ( lado a lado ) */
+    align-items: center; /* alinhar os itens do nosso header para o centro*/
+    justify-content: space-evenly; /* tradução: justificar conteúdo: espaço uniformemente, alinhar is itens igualmente dentro da pagina*/
+    padding: 15px; /* cuida do preeenchimento */
+    background-color: rgb(85, 48, 6); /* cor do fundo do nosso cabeçalho/header */
+    overflow: hidden; /* */
+    line-height: 200px; /* altura da linha */
+    max-height: 200px; /* altura máxima */
 }
+
+header > h1 { /* selecionamos aqui a cor da letra do nosso h1 ou seha, do nosso titulo */
+    color: white; /* chamamos a propriedade color e definimos uma cor em questão */
+}
+
+header > img { /* aqui estamos chamando nossa imagem para ser atribuidas alterações */
+    width: 200px; /* largura da nossa imgem */
+    height: 200px; /* tamanho da nossa imagem */
+}
+
+#menu-header { /* nosso menu de navegação */
+    display: flex; /* responsavel por colocar os itens na mesma linha ( lado a lado ) */
+    align-items: center; /* alinhar os itens do nosso header ára o centro */
+}
+
+#list-menu { /* nossa lista não ordenada, aqui mudaremos direto nossa lista */
+    display: flex; /* responsável por colocar os itens na mesma linha ( lado a lado )
+    margin-right: 1rem; /* margem da direita. 1 REM equivale a 16px, ou seja podemos usa-lo para*/
+}
+
+.item-menu-header { /* nossa Li que estão dentro do list menu, onde se encontram os nomes dos items*/
+    margin-right: 25px; /* margem da direita */
+}
+
+.item-menu-header > a:hover { /* nossa Li que estão dentro do list menu. (a) nossa teg de link */
+   color: yellow;  /* aqui atribuimos uma cor */
+   transition: 1s; /* é o tempo em que será exibido ao passar o cursor */
+}
+
+.item-menu-header > a { /* nossa Li que estão dentro do list menu. (a) nossa teg de link que é */
+    color: white; /* cor das letras */
+    text-decoration: none; /* responsável por tirar o sublinhado inferior que estava visível */
+    font-size: 12px; /* tamanho da letra */
+}
+
+#btn-header {
+
+display: flex;
+
+}
+
+
+
+#btn-header > button > a > img { /* aqui estamos mexendo no ICON do botão */
+    width: 30px; /* largura */
+    height: 30px; /* Tamanho */
+    margin-right: 2px; /* margem da direita */
+}
+
+
+
+
