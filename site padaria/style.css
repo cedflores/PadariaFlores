@@ -51,18 +51,47 @@ header > img { /* aqui estamos chamando nossa imagem para ser atribuidas altera�
     font-size: 12px; /* tamanho da letra */
 }
 
-#btn-header {
+#btn-header { /* nosso ID do botaão do login */
 
-display: flex;
+display: flex; /* responsavel por colocar os items na mesma linha */
 
 }
 
+#btn-header > button { /* aqui chamamos nossa ID e onde queremos fazer alterações */
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
 
+#btn-header > button > a  {
+    display: flex;
+    align-items: center;
+
+}
 
 #btn-header > button > a > img { /* aqui estamos mexendo no ICON do botão */
     width: 30px; /* largura */
     height: 30px; /* Tamanho */
     margin-right: 2px; /* margem da direita */
+}
+
+#btn-header > button > a { /* estamos aqui chamando nossa TAG de link para alterar */
+    color: white; /* cor da letra */
+    text-decoration: none; /* responsável por tirar o sublinhado que estava visível */
+    font-weight: 400px; /* espessura da fonte */
+}
+
+#img-destaque { /* aqui chamamos a ID que chamamos no HTML */
+    padding: 260px; /* cuida do preenchimento */
+    background-image: url(imagens/padaria.webp); /* usada para inserir imagens de fundo */
+    background-position: center; /* aqui posicionamos nossa imgagem para o centro */
+}
+
+.img-div { /* aqui chamamis nossa Class para alteração */
+    padding: 25px; /* cuida do preechimento */
+    background-image: url(imagens/img-div.jpg); /* usada para inserir imaens de fundo */
+    background-position: center; /* aqui posicionamos nossa imagem para o centro */
+    background-size: auto; /* background=size: especifica o tamanho das imagens */
 }
 
 
