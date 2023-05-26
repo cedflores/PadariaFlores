@@ -86,6 +86,8 @@ display: flex; /* responsavel por colocar os items na mesma linha */
     background-image: url(imagens/padaria.webp); /* usada para inserir imagens de fundo */
     background-position: center; /* aqui posicionamos nossa imgagem para o centro */
 }
+/* diferença entre ID e Class; a diferença entre eles é que um Id é usado apenas quando tem um só elemento que precisa ser identificado */
+/* já o class pode ser usado para identificar diversas coisas ao mesmo tempo, facilitando a edição*/
 
 .img-div { /* aqui chamamis nossa Class para alteração */
     padding: 25px; /* cuida do preechimento */
@@ -93,6 +95,59 @@ display: flex; /* responsavel por colocar os items na mesma linha */
     background-position: center; /* aqui posicionamos nossa imagem para o centro */
     background-size: auto; /* background=size: especifica o tamanho das imagens */
 }
+
+main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
+    margin-top: 0px; /* indica o espaço do elemento */
+    font-size: 36px; /* tamanho da letra */
+    text-align: center; /* alinhando o texto para o centro */
+    color: #000000; /* cor da letra do nosso h2 */
+}
+
+#clients { /* aqui chamamos nosso ID da section */
+    background-color: white; /* cor de fundo da nossa section */
+    margin-top: 0; /* indicas o espaço acima do elemento / superior */
+    padding: 50px; /* cuida do preenchimento */
+}
+
+.line { /* aqui chamamos nossa Class que esta dentro do nosso hr, que é identificado como uma quebra de linha tematica entre elementos HTML */
+    margin: 0 auto; /* definimos em 0 a margem e colocamos o mesmo para auto para que recaia para o todo */
+    width: 20px; /* largura */
+}
+
+#clients-list { /* aqui chamamos a nossa ID */
+    display: flex; /* responsavel por colocar os itens na mesma linha  ( lado a lado ) */
+    align-items: center; /* alinhar os itens para o centro */
+    justify-content: space-evenly; /* tradução: justificar-conteudo: espaço uniformemente. ALinhar os itens igualmente dentro da pagina*/
+    margin-top: 30px; /* indica o espaço acima do elemento / superior */
+
+}
+
+.clients-item { /* aqui chamamos nossa class que esta dentro da nossa ID */
+    display: flex; /* responsavel por colocar os itens na mesma linha (lado a lado )*/
+    justify-content: center; /* justificar conteudo no centro */
+    align-items: center; /* alinhar os itens para o centro */
+    flex-direction: column; /* */
+}
+
+.clients-item > img { /* aqui chamamos nossa Tag Img para estilização*/
+    width: 84px; /* largura */
+    height: 84px; /* tamanho */
+}
+
+.clients-item > h3 { /* aqui chamamos nossa h3 para estilização */
+    font-family: 'dancing Script', cursive; /* fonte escolhida */
+    font-size: 26px; /* tamanho da fonte */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
+    align-items: center; /* alinhar os itens para o centro */
+
+}
+
+#featured-produts { /* ID usada para a section dos nossos produtos */
+    
+
+}
+
+
 
 
 
