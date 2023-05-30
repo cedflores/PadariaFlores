@@ -136,16 +136,87 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
 
 .clients-item > h3 { /* aqui chamamos nossa h3 para estilização */
     font-family: 'dancing Script', cursive; /* fonte escolhida */
-    font-size: 26px; /* tamanho da fonte */
-    margin-top: 10px; /* indica o espaço acima do elemento / superior */
+    font-size: 32px; /* tamanho da fonte */
     align-items: center; /* alinhar os itens para o centro */
-
-}
-
-#featured-produts { /* ID usada para a section dos nossos produtos */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
     
-
 }
+
+.clients-item > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#featured-products { /* ID usada para a section dos nossos produtos */
+    background: linear-gradient(180deg, #F4CEAF 8.33%, rgba(244, 200, 175, 0) 100%); /* aqui colocamos uma estilização de fundo degrade */
+    padding: 30px; /*preenchimento */
+}
+
+.products { /* aqui chamamos nos class dos produtos para estilização */
+    margin-top: 3em; /* indica o espaço acima do elemento / superior */
+    display: flex; /* responsavel por colocar os itens na mensa linha */
+    align-items: center; /* alinhar os itens par ao centro */
+    justify-content: space-evenly; /* tradução: justificar-conteudo: espaço uniformemente */
+}
+
+.img-product { /* Class inserida nas nossas tag IMG */
+    width: 300px; /* largura */
+    height: 300px; /* tamanho */
+    border-radius: 50px; /* Estilo arrendondado */
+}
+
+.title-products { /* Class usada para edição de titulos de produtos, exemplo perfeito de o porque usamos a class nesses casos */
+    margin-top: 10px; /* indica o espaço acima do elemento */
+    font-family: 'Unbutu', 'sans-serif'; /* fonte selecionada */
+    text-align: center; /* alinhar o texto, no centro */
+    font-size: 22px; /* tamanho da letra*/
+}
+
+#featured-products > a { /* aqui estamos chamando nossa TAG de LInk para estilização */
+    text-decoration: none; /* aqui desabilitamos com o none qualquer sublinhado que tenha dentro da nossa TAG 'a' */
+    font-family: 'Unbutu', 'sans-serif';
+    font-size: 20px; /* fonte selecionada */
+    color: red; /* cor da letra */
+    justify-content: center;
+    margin-left: 40rem;
+}
+
+#featured-products > a:hover { /* aqui estamos chamando nossa TAG de link para colocar um efeito hover nela */
+    text-decoration: underline; /* aqui chamamos o Text-decoration ára colocar uma decoração ao passar o cursor underline como um sublinhado embaixo do nome */
+    font-size: 22px; /* tamanho da letra ao passar o cursor por cima */
+    transition: 1s; /* o tempo que será realizado esta ação */
+}
+
+#sobre-nos { /* chamamos nossa ID */
+    background-image: ; /* usado para inserir uma imagem de fundo */
+    background-repeat: no-repeat; /* aqui colocamos a função para que a imagem não seja repetida */
+    background-attachment: fixed; /**/
+    background-position: center; /* na posição da imagem colocamos ao centro */
+    background-size: cover; /**/
+    padding: 120px; /**/
+}
+
+#sobre-nos > h3 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    font-family:'Unbutu', 'sans-serif';
+}
+
+#aobre-nos > p {
+    font-family:'Unbutu', 'sans-serif' ;
+    font-weight: 500px;
+    color: white;
+    font-size: 22px;
+    margin-top: 2em;
+    text-align: left;
+}
+
+
+
+
 
 
 
