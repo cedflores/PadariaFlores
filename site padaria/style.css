@@ -190,7 +190,7 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
 }
 
 #sobre-nos { /* chamamos nossa ID */
-    background-image: ; /* usado para inserir uma imagem de fundo */
+    background-image: url(fundo-sobre-nos.jpg) ; /* usado para inserir uma imagem de fundo */
     background-repeat: no-repeat; /* aqui colocamos a função para que a imagem não seja repetida */
     background-attachment: fixed; /**/
     background-position: center; /* na posição da imagem colocamos ao centro */
@@ -198,20 +198,59 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
     padding: 120px; /**/
 }
 
-#sobre-nos > h3 {
-    color: white;
-    font-size: 64px;
-    text-align: center;
-    font-family:'Unbutu', 'sans-serif';
+#sobre-nos > h3 { /* */
+    color: white; /* */
+    font-size: 64px; /* */
+    text-align: center; /* */
+    font-family:'Unbutu', 'sans-serif'; /* */
 }
 
-#aobre-nos > p {
-    font-family:'Unbutu', 'sans-serif' ;
-    font-weight: 500px;
-    color: white;
-    font-size: 22px;
-    margin-top: 2em;
-    text-align: left;
+#sobre-nos > p {  /* */
+    font-family:'Unbutu', 'sans-serif' ; /* */
+    font-weight: 500px; /* */
+    color: white; /* */
+    font-size: 22px; /* */
+    margin-top: 2em; /* */
+    text-align: left; /* */
+}
+
+footer {  /* */
+    padding: 80px; /* */
+    background-image:url(img-footer.jpg)  ; /* */
+    background-position: bottom; /* */
+    background-repeat: no-repeat; /* */
+
+}
+
+footer > ul { /* */
+    display: flex; /* */
+    justify-content: space-evenly; /* */
+}
+
+footer > h2 { /* */
+    color: black bold; /* */
+    font-size: 40px; /* */
+    font-weight: bold; /* */
+    text-align: center; /* */
+    margin-bottom: 1em; /* */
+}
+
+.item-menu-footer { /* */
+    display: flex; /* */
+    align-items: center; /* */
+    margin-top: 30px; /* */
+}
+
+.item-menu-footer > img { /* */
+    width: 34px; /* */
+    height: 34px; /* */
+}
+
+.item-menu-footer > p { /* */
+    color: black bold; /* */
+    font-size: 24px; /* */
+    font-weight: bold; /* */
+    margin-left: 10px; /* */
 }
 
 
