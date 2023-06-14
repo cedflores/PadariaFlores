@@ -190,7 +190,7 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
 }
 
 #sobre-nos { /* chamamos nossa ID */
-    background-image: url(fundo-sobre-nos.jpg) ; /* usado para inserir uma imagem de fundo */
+    background-image: url(imagens/fundo-sobre-nos.jpg) ; /* usado para inserir uma imagem de fundo */
     background-repeat: no-repeat; /* aqui colocamos a função para que a imagem não seja repetida */
     background-attachment: fixed; /**/
     background-position: center; /* na posição da imagem colocamos ao centro */
@@ -216,7 +216,7 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
 
 footer {  /* */
     padding: 80px; /* */
-    background-image:url(img-footer.jpg)  ; /* */
+    background-image:url(imagens/img-footer.jpg)  ; /* */
     background-position: bottom; /* */
     background-repeat: no-repeat; /* */
 

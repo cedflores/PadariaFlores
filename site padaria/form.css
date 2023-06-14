@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Roboto, Arial, Helvetica, Arial, sans-serif;
+}
+
+/* Aqui colocarmos estilização no corpo da pagina (body)*/
+    
+body {
+    width: 100%; /* largura */
+    height: 100vh; /* tamanho */
+    background-image: url(imagens/paes.webp); /* aqui inserimos a imagem */
+    background-position: center; /* posicioanmos a imgem ao centro */
+    background-repeat: no-repeat; /* colocamos para que a imagem não se repita */
+    background-size: cover; /* aqui atribuimos para que a imagemfique em toda nossa pagina */
+    display: flex; /* responsavel por colocar os itens na mesma linha ( lado a lado ) */
+    align-items: center; /* alinhar os otens para o centro */
+    justify-content: center; /* justificar conteudo ao centro */
+}
+
+.container { /* aqui estamos chamando nossa Class */
+    max-width: 1280px; /* atribuimos aqui um tamanho maximo de largura que essa class irá exercer */
+    margin: 0 auto; /* dizemos ao navegador que as imagens superior e inferior são iguais a 0 e a da esquerda e direita são automaticas */
+
+}
+
+form { /* aqui chamamos nosso Form para estilização */
+    background-color: white; /* colocamos uma cor de fundo */
+    max-width: 400px; /* atribuimos aqui um tamanho maximo de largura para que esse formulario ira exerce*/
+    height: 450px; /* largura do formulario */
+    padding: 40px; /* Preenchimneto */
+    border-radius: 20px; /* areendondamento das bordas do formulario */
+}
+
+form h1 { /* chamamos nosso texto para estilização */
+    text-align: center; /* alinhamos ao centro */
+    font-size: 30px; /* tamanho da letra */
+    color: black; /* cor da letra */
+}
+
+form p { /* chamamos nosso paragrafo para estilização */
+    text-align: center; /* alinhamos para o centro nosso paragrafo */
+    margin: 20px 0; /* dizemos ao navegador que as margens superior e inferior são iguais a 20 e as da direita e da esquerda são iguais */
+
+}
+
+.input-single { /* chamamos nossa Class que esta encabeçada nas Div's do s nossos Input e Label */
+    position: relative; /* posição relativa */
+    margin: 20px 0; /* dizemos ao navegador que as margens superior e inferior são iguais a 20 e as da direita e da esquerda são iguais */
+}
+
+.input-single > label { /* chamamos nossa Label para estilização */
+    position: absolute; /* atribuimos uma posição absoluta em relação a o formulario */
+    left: 0; /* zeramos a margem a esquerda */
+    bottom: 5px; /* margem inferior atribuimos para 5px */
+    transition: all 0.2s; /* inserimos uma transição total para 0.2s */
+    cursor: text; /* aqui é para quando passar o mouse, aparecer o indicador de texto */
+
+}
+
+.input { /* aqui chamamos nosso Submit ou seja, o botão para estilização */
+    width: 100%; /* largura */
+    border: 0; /* tamanho da borda */
+    border-bottom: 2px solid #ccc; /* estilização da borda inferior */
+    padding: 5px; /* preenchimento do Input */
+    font-size: 17px; /* tamanho */
+    outline: 0; /*  */
+}
+
+form > .input-single > .input:focus ~ label, /*  */
+form .input-single .input:valid ~ label {  /*  */
+    transform: translateY(-25px); /*  */
+    font-size: 12px; /*  */
+    color: black;  /*  */
+}
+
+.btn { /* aqui estamos chamando nossa Class Btn para estilização */
+    width: 100%; /* largura */
+    text-align: center; /* alinhando o texto ao centro */
+}
+
+form input[type=submit] {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(25, 125, 207);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
