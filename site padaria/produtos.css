@@ -1,0 +1,137 @@
+* {           /* configurações padrões de inicio de um projeto dentro do CSS */
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, Helvetica,  sans-serif;
+}
+
+header {
+    display: flex; /* Responsável por colocar os itens na mesma linha ( lado a lado ) */
+    align-items: center; /* alinhar os itens do nosso header para o centro*/
+    justify-content: space-evenly; /* tradução: justificar conteúdo: espaço uniformemente, alinhar is itens igualmente dentro da pagina*/
+    padding: 15px; /* cuida do preeenchimento */
+    background-color: rgb(85, 48, 6); /* cor do fundo do nosso cabeçalho/header */
+    overflow: hidden; /* */
+    line-height: 200px; /* altura da linha */
+    max-height: 200px; /* altura máxima */
+}
+
+header > h1 { /* selecionamos aqui a cor da letra do nosso h1 ou seha, do nosso titulo */
+    color: white; /* chamamos a propriedade color e definimos uma cor em questão */
+}
+
+header > img { /* aqui estamos chamando nossa imagem para ser atribuidas alterações */
+    width: 200px; /* largura da nossa imgem */
+    height: 200px; /* tamanho da nossa imagem */
+}
+
+#menu-header { /* nosso menu de navegação */
+    display: flex; /* responsavel por colocar os itens na mesma linha ( lado a lado ) */
+    align-items: center; /* alinhar os itens do nosso header ára o centro */
+}
+
+main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
+    margin-top: 0px; /* indica o espaço do elemento */
+    font-size: 36px; /* tamanho da letra */
+    text-align: center; /* alinhando o texto para o centro */
+    color: #000000; /* cor da letra do nosso h2 */
+}
+
+#list-menu { /* nossa lista não ordenada, aqui mudaremos direto nossa lista */
+    display: flex; /* responsável por colocar os itens na mesma linha ( lado a lado )
+    margin-right: 1rem; /* margem da direita. 1 REM equivale a 16px, ou seja podemos usa-lo para*/
+}
+
+.item-menu-header { /* nossa Li que estão dentro do list menu, onde se encontram os nomes dos items*/
+    margin-right: 25px; /* margem da direita */
+}
+
+.item-menu-header > a:hover { /* nossa Li que estão dentro do list menu. (a) nossa teg de link */
+   color: yellow;  /* aqui atribuimos uma cor */
+   transition: 1s; /* é o tempo em que será exibido ao passar o cursor */
+}
+
+.item-menu-header > a { /* nossa Li que estão dentro do list menu. (a) nossa teg de link que é */
+    color: white; /* cor das letras */
+    text-decoration: none; /* responsável por tirar o sublinhado inferior que estava visível */
+    font-size: 12px; /* tamanho da letra */
+}
+
+#btn-header { /* nosso ID do botaão do login */
+
+display: flex; /* responsavel por colocar os items na mesma linha */
+
+}
+
+#btn-header > button { /* aqui chamamos nossa ID e onde queremos fazer alterações */
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-header > button > a  {
+    display: flex;
+    align-items: center;
+
+}
+
+#btn-header > button > a > img { /* aqui estamos mexendo no ICON do botão */
+    width: 30px; /* largura */
+    height: 30px; /* Tamanho */
+    margin-right: 2px; /* margem da direita */
+}
+
+#btn-header > button > a { /* estamos aqui chamando nossa TAG de link para alterar */
+    color: white; /* cor da letra */
+    text-decoration: none; /* responsável por tirar o sublinhado que estava visível */
+    font-weight: 400px; /* espessura da fonte */
+}
+
+#featured-products { /* ID usada para a section dos nossos produtos */
+    background: linear-gradient(180deg, #F4CEAF 8.33%, rgba(244, 200, 175, 0) 100%); /* aqui colocamos uma estilização de fundo degrade */
+    padding: 30px; /*preenchimento */
+}
+
+
+
+
+.products { /* aqui chamamos nos class dos produtos para estilização */
+    margin-top: 3em; /* indica o espaço acima do elemento / superior */
+    display: flex; /* responsavel por colocar os itens na mensa linha */
+    align-items: center; /* alinhar os itens par ao centro */
+    justify-content: space-evenly; /* tradução: justificar-conteudo: espaço uniformemente */
+}
+
+
+
+.img-product { /* Class inserida nas nossas tag IMG */
+    width: 300px; /* largura */
+    height: 300px; /* tamanho */
+    border-radius: 50px; /* Estilo arrendondado */
+}
+
+
+
+.title-products { /* Class usada para edição de titulos de produtos, exemplo perfeito de o porque usamos a class nesses casos */
+    margin-top: 10px; /* indica o espaço acima do elemento */
+    font-family: 'Unbutu', 'sans-serif'; /* fonte selecionada */
+    text-align: center; /* alinhar o texto, no centro */
+    font-size: 22px; /* tamanho da letra*/
+}
+
+#featured-products > a { /* aqui estamos chamando nossa TAG de LInk para estilização */
+    text-decoration: none; /* aqui desabilitamos com o none qualquer sublinhado que tenha dentro da nossa TAG 'a' */
+    font-family: 'Unbutu', 'sans-serif';
+    font-size: 20px; /* fonte selecionada */
+    color: red; /* cor da letra */
+    justify-content: center;
+    margin-left: 40rem;
+}
+
+
+#featured-products > a:hover { /* aqui estamos chamando nossa TAG de link para colocar um efeito hover nela */
+    text-decoration: underline; /* aqui chamamos o Text-decoration ára colocar uma decoração ao passar o cursor underline como um sublinhado embaixo do nome */
+    font-size: 22px; /* tamanho da letra ao passar o cursor por cima */
+    transition: 1s; /* o tempo que será realizado esta ação */
+}
