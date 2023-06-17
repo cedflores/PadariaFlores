@@ -38,6 +38,13 @@ main > section > h2 { /* aqui estamos chamando nosso h2 para estilização */
     color: #000000; /* cor da letra do nosso h2 */
 }
 
+#featured-products > h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
 #list-menu { /* nossa lista não ordenada, aqui mudaremos direto nossa lista */
     display: flex; /* responsável por colocar os itens na mesma linha ( lado a lado )
     margin-right: 1rem; /* margem da direita. 1 REM equivale a 16px, ou seja podemos usa-lo para*/
@@ -135,3 +142,37 @@ display: flex; /* responsavel por colocar os items na mesma linha */
     font-size: 22px; /* tamanho da letra ao passar o cursor por cima */
     transition: 1s; /* o tempo que será realizado esta ação */
 }
+
+
+footer > ul { /* */
+    display: flex; /* */
+    justify-content: space-evenly; /* */
+}
+
+footer > h2 { /* */
+    color: black bold; /* */
+    font-size: 40px; /* */
+    font-weight: bold; /* */
+    text-align: center; /* */
+    margin-bottom: 1em; /* */
+}
+
+.item-menu-footer { /* */
+    display: flex; /* */
+    align-items: center; /* */
+    margin-top: 30px; /* */
+}
+
+.item-menu-footer > img { /* */
+    width: 34px; /* */
+    height: 34px; /* */
+}
+
+.item-menu-footer > p { /* */
+    color: black bold; /* */
+    font-size: 24px; /* */
+    font-weight: bold; /* */
+    margin-left: 10px; /* */
+}
+
+
