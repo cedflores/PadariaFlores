@@ -10,33 +10,42 @@
 </head>
  <body>
 
+
+
     <section class="form=container">
+
         <div class="container">
 
             <form> <!--Abrikmos aqui nossa Tag de formulario-->
                 <h1>Entre em Contato</h1>  <!--Titulo para nosso formulario-->
+                
                 <p>Preencha o formulário abaixo e entraremos em contato com você</p>  <!--pequena descrição Tag de paragrafo-->
+
                 <div class="input-single"> <!--aqui criamos uma divisão para inserirmos nossa label e input ( nome e caixa )-->
-                    <input type="text" name="" id="nome-box" class="input" autocomplete="off" required> <!--atribuímos que é tipo text, adicionamos um nome para sua class e desabilitamos o preecnhimento automatico-->
-                    <label for="nome-box">Nome Completo</label> <!--aqui colocamos o nome que irá aparecer do lado da nossa caixa-->
+
+                    <input type="text" class="input" autocomplete="off" required id="nome" name="nome"> <!--atribuímos que é tipo text, adicionamos um nome para sua class e desabilitamos o preecnhimento automatico-->
+                    <label for="nome">Nome Completo</label> <!--aqui colocamos o nome que irá aparecer do lado da nossa caixa-->
                 </div>
 
                 <div class="input-single">
-                    <input type="text" name="" id="email-box" class="input" autocomplete="off" required>
-                    <label for="email-box">Email</label>
+                    <input type="text" class="input" autocomplete="off" required id="email" name="email">
+                    <label for="email">Email</label>
                 </div>
 
                 <div class="input-single">
-                    <input type="number" name="" id="tel-box" class="input" autocomplete="off" required>
-                    <label for="tel-box">Senha</label>
+                    <input type="password" class="input" autocomplete="off" required id="senha" name="senha">
+                    <label for="tel">Senha</label>
                 </div>
 
                 <div class="input-single">
-                    <input type="number" name="" id="tel-box" class="input" autocomplete="off" required>
-                    <label for="tel-box">Telefone</label>
+                    <input type="number" class="input" autocomplete="off" required id="telefone" name="telefone">
+                    <label for="tel">Telefone</label>
                 </div>
 
-                <div class="btn"><input type="submit" value="Enviar"></div>
+             
+
+                <div class="btn"><input type="submit" value="Enviar">
+                </div>
 
             </form>
         </div>

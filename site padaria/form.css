@@ -22,7 +22,7 @@ body {
 
 .container { /* aqui estamos chamando nossa Class */
     max-width: 1280px; /* atribuimos aqui um tamanho maximo de largura que essa class irá exercer */
-    margin: 0 auto; /* dizemos ao navegador que as imagens superior e inferior são iguais a 0 e a da esquerda e direita são automaticas */
+    margin: 0 auto; /* dizemos ao navegador que as margens superior e inferior são iguais a 0 e a da esquerda e direita são automaticas */
 
 }
 
